@@ -1,0 +1,13 @@
+CREATE TABLE customers (
+    customer_id INTEGER PRIMARY KEY,
+    name TEXT,
+    product_id INTEGER,
+    purchase_count INTEGER
+);
+
+CREATE TABLE products (
+    product_id INTEGER PRIMARY KEY,
+    product_name TEXT,
+    category TEXT,
+    popularity FLOAT
+);
